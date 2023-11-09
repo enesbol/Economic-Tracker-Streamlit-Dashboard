@@ -75,7 +75,7 @@ def download_all_data():
     
     # Clean the "Raw Datas" folder before downloading new data
     clean_data_folder()
-    clean_data_folder(data_folder= "Datas\Maps")
+    clean_data_folder(data_folder= "Datas/Maps")
     clean_data_folder(data_folder= "Datas/Chart Datas")
 
     # Create a progress bar
