@@ -41,20 +41,6 @@ data_links = {
     "Zearn - County - Weekly": "https://github.com/OpportunityInsights/EconomicTracker/raw/main/data/Zearn%20-%20County%20-%20Weekly.csv",
 }
 
-"""
-def clean_data_folder(data_folder= "Datas/Raw Datas"):
-    # Remove all files in the "Raw Datas" folder 
-    for file in os.listdir(data_folder):
-        file_path = os.path.join(data_folder, file)
-        try:
-            if os.path.isfile(file_path):
-                os.remove(file_path)
-        except Exception as e:
-            st.error(f"Error while cleaning the data folder: {e}")
-
-
-"""
-
 def clean_data_folder(data_folder="Datas/Raw Datas"):
     # Remove all files in the "Raw Datas" folder 
     for file in os.listdir(data_folder):
